@@ -1,0 +1,62 @@
+{
+"my_loggers": [
+        {
+            "Logger": "TRADEFILE",
+            "name": "TRADE_BNF",
+            "add_simulation_date": true,
+            "isNew": true
+        },
+
+        {
+            "Logger": "RESPONSEFILE",
+            "name": "RESPONSE_BNF",
+            "add_simulation_date": true,
+            "isNew": true
+        },
+
+        {
+            "Logger": "STATSFILE",
+            "name": "STATS_BNF",
+            "add_simulation_date": true,
+            "isNew": true
+        },
+
+        {
+            "Logger": "TEMPFILE",
+            "name": "TEMP_BNF",
+            "add_simulation_date": true,
+            "isNew": true
+        },
+
+        {
+            "Logger": "ERRORFILE",
+            "name": "ERROR_BNF",
+            "add_simulation_date": true,
+            "isNew": true
+        }
+    ],
+
+    "pos_file_path": "%SPARE%/data_dump/Tim/Dumps/Sim/",
+    "pnl_file_path": "%SPARE%/data_dump/Tim/Dumps/Sim/",
+    "trade_info_path": "%SPARE%/data_dump/Tim/Dumps/Sim/",
+    "spot_constituents_path":
+        {
+            "BNF": "/data/processed_data/Indexes/NSEINDEX/BANKNIFTY/"
+        },   
+
+    "Interested_Instruments": [
+        {
+            "Underlier": "BANKNIFTY",
+            "IsOption": true,
+            "strike_start": 70,
+            "strike_end": 130,
+            "Date": "%DATE%",
+            "Path": "/home/pjain/dated_symbols/BNFTWO/",
+            "expiry": 0
+        }
+    ], 
+ 
+    "margin_file_path": "%HOME%/Hog/Marginconfig.cfg",
+    "connector_file_path": "%HOME%/data/configs/ConnectorNSE.cfg",
+    "my_logger_path": "%SPARE%/data_dump/Tim/Logs/Sim/"
+}

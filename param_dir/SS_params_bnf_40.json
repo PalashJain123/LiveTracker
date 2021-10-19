@@ -1,0 +1,92 @@
+{
+    "CIHedgeParams": {
+        "delta_lower_cap": 0.05,
+        "delta_upper_cap": 0.2,
+        "slippage_constant": 0.02
+    },
+    "CI_SSParams": {
+        "delta_lower_cap": 0.1,
+        "delta_tolerance": 1.2,
+        "delta_upper_cap": 0.6,
+        "long_delta_lower_cap": 0.2,
+        "long_delta_upper_cap": 0.6,
+        "max_opt_price": 1200000,
+        "max_theo_pos": 1,
+        "min_opt_price": 10,
+        "slippage_constant": 0.02
+    },
+    "ExecParams": {
+        "ind_queue_size": 3,
+        "max_q_size": 6
+    },
+    "ExecutionParams": {
+        "agg_start_hour": 15,
+        "agg_start_min": 15,
+        "exit_scheme": "PASSIVE",
+        "no_of_improvements": 4,
+        "no_of_lots": 3,
+        "order_timeout": 1,
+        "percent_spread_to_improve": 25,
+        "percent_tol": 0
+    },
+    "GlobalParams": {
+        "closing_hour": 14,
+        "closing_min": 45,
+        "end_hour": 15,
+        "end_min": 30,
+        "exchange": "NSE",
+        "global_max_pos": 1000000,
+        "margin": 148500000.0,
+        "max_pos": 7000,
+        "spot_type": "spot",
+        "start_hour": 9,
+        "start_min": 15,
+        "Margin": 148500000.0
+    },
+    "HedgerParams": {
+        "action_threshold": 0.2,
+        "max_timeout": 150,
+        "profit_booking_threshold": 0.1,
+        "rate_calculation_window": 30,
+        "timeout": 0,
+        "trade_end_hour": 15,
+        "trade_end_min": 30,
+        "trade_start_hour": 9,
+        "trade_start_min": 16,
+        "trade_timer": 20
+    },
+    "SS_TraderParams": {
+        "ci_exit_timeout": 4.0,
+        "max_timeout_limit": 60,
+        "non_tradeable_timeout": 1.0,
+        "profit_booking_threshold": 0.1,
+        "quick_sell_time": "14:30:00",
+        "scaling_factor": 140,
+        "spot_add": -30,
+        "spread": 20,
+        "stop_loss_threshold": -0.1,
+        "timer_add": 20,
+        "trade_end_hour": 15,
+        "trade_end_min": 30,
+        "trade_start_hour": 9,
+        "trade_start_min": 16,
+        "trade_timer": 20
+    },
+    "SignalParams": {
+        "margin_threshold": 10,
+        "pnl_threshold": -5000000,
+        "primary_list": [
+            "palash.jain@alpha-grep.com"
+        ],
+        "secondary_list": [
+            "palash.jain@alpha-grep.com"
+        ]
+    },
+    "SpotIndicators": {
+        "adx_score_cutoff": 0.5,
+        "diff_spot_window": 20,
+        "spot_diff_cutoff": 25,
+        "window_size": 90,
+        "z_score_cutoff": 1.5
+    }
+}
